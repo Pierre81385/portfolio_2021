@@ -15,6 +15,10 @@ const Header = () => {
     headerDiv: {
       backgroundImage: `url(${BackgroundImage})`,
       backgroundSize: "cover",
+      paddingBottom: "10px",
+      borderColor: "white",
+      borderWidth: "10px",
+      borderBottomStyle: "solid",
     },
     h1: {
       fontSize: "3rem",
@@ -26,7 +30,10 @@ const Header = () => {
   return (
     <div style={style.headerDiv}>
       <header className="bg-info text-light mb-4 py-3 display-flex align-center">
-        <div className="container flex-column justify-space-between-lg justify-center align-center text-center">
+        <div
+          className="container flex-column justify-space-between-lg justify-center align-center text-center"
+          style={style.navDiv}
+        >
           <h1 className="m-0" style={style.h1}>
             Peter J Bishop
           </h1>
