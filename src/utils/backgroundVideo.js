@@ -19,6 +19,7 @@ const BackgroundVideo = () => {
         autoPlay="autoplay"
         loop="loop"
         muted
+        playsInline
         className={classes.Video}
         style={style.video}
       >
