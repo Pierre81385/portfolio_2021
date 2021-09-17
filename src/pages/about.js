@@ -6,7 +6,7 @@ export default function About() {
     container: {
       display: "flex",
       flex: "wrap",
-      padding: "15px",
+      padding: "5px",
       color: "white",
     },
     divLeft: {
@@ -14,7 +14,6 @@ export default function About() {
       textAlign: "left",
       color: "white",
       flex: "wrap",
-      padding: "20px",
     },
     divRight: {
       width: "65%",

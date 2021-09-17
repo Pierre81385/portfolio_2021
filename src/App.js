@@ -8,6 +8,8 @@ import BackgroundVideo from "./utils/backgroundVideo";
 import { Link } from "react-router-dom";
 
 function App() {
+  //zIndex added with positionRelative where needed to ensure background didn't
+  //prevent other buttons from being accessible by the user
   const style = {
     background: {
       position: "fixed",
@@ -34,6 +36,7 @@ function App() {
   return (
     <Router>
       <div className="flex-column justify-flex-start min-100-vh">
+        {/* header  */}
         <h1 className="m-0" style={style.h1}>
           Peter J Bishop
         </h1>
@@ -68,6 +71,7 @@ function App() {
             CONTACT
           </Link>
         </div>
+        {/* routing */}
         <div className="container">
           <Route exact path="/home">
             <div style={style.background}>
@@ -91,6 +95,7 @@ function App() {
               <Contact />
             </div>
           </Route>
+          {/* video background */}
           <div style={{ zIndex: -1 }}>
             <BackgroundVideo />
           </div>

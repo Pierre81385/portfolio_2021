@@ -57,10 +57,6 @@ export default function Contact() {
                 />
               </a>
             </td>
-
-            <td style={style.td}>
-              <div style={style.div}>G I T H U B</div>
-            </td>
           </tr>
 
           <tr>
@@ -74,9 +70,6 @@ export default function Contact() {
                   style={style.img}
                 />
               </a>
-            </td>
-            <td>
-              <div style={style.div}>L I N K E D I N</div>
             </td>
           </tr>
 
@@ -92,9 +85,6 @@ export default function Contact() {
                 />
               </a>
             </td>
-            <td>
-              <div style={style.div}>I N S T A G R A M</div>
-            </td>
           </tr>
 
           <tr>
@@ -109,14 +99,11 @@ export default function Contact() {
                 />
               </a>
             </td>
-            <td>
-              <div style={style.div}>F A C E B O O K</div>
-            </td>
           </tr>
         </table>
       </div>
       <div style={(style.div, style.text)}>
-        <h1>Follow me on social media!</h1>
+        <h1>Connect With Me</h1>
         <h2>
           Phone:
           <span> </span>
