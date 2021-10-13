@@ -5,26 +5,14 @@ export default function About() {
   const style = {
     container: {
       display: "flex",
-      flex: "wrap",
+      flexWrap: "wrap",
       padding: "5px",
       color: "white",
-    },
-    divLeft: {
-      width: "35%",
-      textAlign: "left",
-      color: "white",
-      flex: "wrap",
-    },
-    divRight: {
-      width: "65%",
-      textAlign: "left",
-      color: "white",
-      flex: "wrap",
     },
   };
   return (
     <div style={style.container}>
-      <div style={style.divLeft}>
+      <div>
         <div style={{ textAlign: "left" }}>
           <h1>Skills</h1>
           <ul style={{ paddingLeft: 0 }}>
@@ -45,7 +33,7 @@ export default function About() {
         </div>
       </div>
 
-      <div style={style.divRight}>
+      <div>
         <h1>About Me</h1>
         <p>
           My name is Peter Bishop, and after years of working lower level roles
