@@ -15,6 +15,7 @@ function App() {
       position: "fixed",
       padding: "50px",
       zIndex: 2,
+      height: "100vh",
     },
     Link: {
       fontFamily: "'Ubuntu Mono', monospace",
